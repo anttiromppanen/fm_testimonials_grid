@@ -2,7 +2,11 @@ import TestimonialsGrid from "./components/TestimonialsGrid/TestimonialsGrid";
 
 function App() {
   return (
-    <div className="flex justify-center lg:items-center h-[100dvh] md:h-screen w-full max-w-6xl m-auto">
+    <div
+      className="
+      m-auto flex h-[100dvh] w-full max-w-6xl justify-center 
+      p-6 md:h-screen lg:items-center"
+    >
       <TestimonialsGrid />
     </div>
   );
